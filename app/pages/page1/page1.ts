@@ -8,4 +8,10 @@ export class Page1 {
   constructor() {
 
   }
+  
+  test() {
+      console.log('test button clicked');
+      
+      throw new Error('oops');
+  }
 }
